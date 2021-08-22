@@ -18,6 +18,7 @@ mkdir -p "$folder"/processing
 mkdir -p "$folder"/processing/csv
 mkdir -p "$folder"/risorse
 mkdir -p "$folder"/report
+mkdir -p "$folder"/../../data
 
 URL="https://www.epicentro.iss.it/coronavirus/open-data/OPENDATA-2021.zip https://www.epicentro.iss.it/coronavirus/open-data/OPENDATA-2020.zip"
 
@@ -84,3 +85,6 @@ find "$folder"/report/ -size 0 -delete
 
 # normalizza a intero il codice provinciale
 mlr -I --csv put -S '$COD_PROV=sub($COD_PROV,"\..+","")' "$folder"/risorse/casi_provincie.csv
+
+# sposta i file CSV nella cartella data
+mv "$folder"/risorse/*.csv "$folder"/../../data
