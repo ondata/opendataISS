@@ -1,6 +1,6 @@
 # Introduzione
 
-L'**Istituto Superiore di Sanità** (ISS) ha pubblicato dal **21 agosto 2021** l'archivio dei dati che alimentano la *dashboard* denominata "[Dati della Sorveglianza integrata COVID-19 in Italia](https://www.epicentro.iss.it/coronavirus/sars-cov-2-dashboard)".
+L'**Istituto Superiore di Sanità** (ISS) ha [pubblicato](https://www.epicentro.iss.it/coronavirus/sars-cov-2-sorveglianza-dati) dal **21 agosto 2021** l'archivio dei dati che alimentano la *dashboard* denominata "[Dati della Sorveglianza integrata COVID-19 in Italia](https://www.epicentro.iss.it/coronavirus/sars-cov-2-dashboard)".
 
 Queste le caratteristiche principali a quella data ([copia su *archive*](https://web.archive.org/web/20210821052235/https://www.epicentro.iss.it/coronavirus/sars-cov-2-sorveglianza-dati)) insieme a qualche nota:
 
