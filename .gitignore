@@ -1,0 +1,6 @@
+tmp*
+.~lock*
+script/opendataISS/processing/OPENDATA-202*/*
+script/opendataISS/processing/csv/*
+script/opendataISS/risorse/*.json
+script/opendataISS/risorse/*.zip
