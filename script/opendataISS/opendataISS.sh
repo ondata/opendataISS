@@ -1,5 +1,11 @@
 #!/bin/bash
 
+### requisiti ###
+# csvtk https://bioinf.shenwei.me/csvtk/
+# miller https://github.com/johnkerl/miller
+### requisiti ###
+
+
 set -x
 set -e
 set -u
@@ -51,18 +57,13 @@ for i in "$folder"/processing/OPEN*/OPEN*/*.xlsx; do
   done <"$folder"/risorse/fogliOpenDataISS
 done
 
-# fai il merge
-#rm "$folder"/risorse/*.csv
-#while read p; do
-#  mlr --csv remove-empty-columns then skip-trivial-records then unsparsify then put -S '$file=FILENAME;$file=sub($file,"^.+/","")' "$folder"/processing/csv/"$p"*.csv >"$folder"/risorse/"$p".csv
-#done <"$folder"/risorse/fogliOpenDataISS
-
 # pulisci file problematico
 mlr -I --csv -N cut -x -f 4,5 "$folder"/processing/csv/COVID_19_ISS_open_data_2020-12-10_casi_inizio_sintomi_sint.csv
 
+# rimuovi file di merge eventualmente presenti
 rm "$folder"/risorse/*.json
 
-# fai il merge di tutti i dati in un JSON per tipo dati
+# fai il merge di tutti i dati in un unico JSON per tipo dati
 while read p; do
   echo "$p"
   for i in "$folder"/processing/csv/*"$p".csv; do
@@ -78,7 +79,7 @@ for i in "$folder"/risorse/*.json; do
   mlr -I --csv cut -x -f check then reorder -e -f file "$folder"/risorse/"$nome".csv
 done
 
-# cancella file di errori vuoti
+# cancella file di errore vuoti
 find "$folder"/report/ -size 0 -delete
 
 # normalizza a intero il codice provinciale
