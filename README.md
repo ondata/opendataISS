@@ -11,7 +11,7 @@ Queste le caratteristiche principali a quella data ([copia su *archive*](https:/
 - il formato **`xlsx`** **non è** nell'elenco dei **formati aperti** per i **dati**, presente nelle [**Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico**](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/arch.html#formati-aperti-per-i-dati);
 - non c'è una licenza associata, quindi vale la [licenza generale del sito](https://www.epicentro.iss.it/chi-siamo/disclaimer), che è una `CC BY-NC-SA 2.5`, quindi al momento **non sono open data**.
 
-Scriveremo a ISS, per chiedere di utilizzare un **formato adeguato** alle già citate [Linee guida](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/arch.html#formati-aperti-per-i-dati) e agli *standard* internazionali e di **associare** a questi dati una **licenza** che li consenta di **classificare** **formalmente** e **usare** **sostanzialmente** come **open data**.
+Scriveremo a ISS, per chiedere di utilizzare un **formato adeguato** alle già citate [Linee guida](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/arch.html#formati-aperti-per-i-dati) e agli *standard* internazionali e di **associare** a questi dati una **licenza** che consenta di **classificarli** **formalmente** e **usarli** **sostanzialmente** come **open data**.
 
 # Elaborazioni fatte
 
