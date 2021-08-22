@@ -22,3 +22,7 @@ Al momento queste:
 - **aggiunta** del **campo** `file` per dare conto del file `xlsx` di origine;
 - **aggiunta** del **campo** `iss_date_iso8601`, che contiene il valore del campo `iss_date` convertito in formato `YYYY-MM-DD` (i.e. 2021-08-27);
 - **aggiunta** del **campo** `file_date_iso8601`, che contiene la data formato `YYYY-MM-DD` (i.e. 2021-08-27) estratta dal nome del file `xlsx` sorgente. I singoli file hanno infatti questa struttura di nome `COVID_19_ISS_open_data_2020-05-14.xlsx`.
+
+---
+
+🙏Se vuoi sostenerci, puoi farlo con una [donazione](https://www.paypal.com/biz/fund?id=VCPYF6VDYX6EE&utm_campaign=Associazione%20onData%20newsletter&utm_medium=email&utm_source=Revue%20newsletter).
